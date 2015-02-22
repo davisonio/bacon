@@ -40,14 +40,22 @@ minetest.register_node("bacon:rawblock", {
 	description = "Raw Bacon Block",
 	tiles = {"bacon_rawblock.png"},
 	groups = {cracky=1,level=2},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = { footstep = { name = "bacon_step", gain = 0.4 },
+		   dug = { name = "bacon_dug", gain = 0.9 },
+		   dig = { name = "bacon_dig", gain = 0.7 },
+		   place = { name = "bacon_place", gain = 0.2 },
+	},
 })
 
 minetest.register_node("bacon:cookedblock", {
 	description = "Cooked Bacon Block",
 	tiles = {"bacon_cookedblock.png"},
 	groups = {cracky=1,level=2},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = { footstep = { name = "bacon_step", gain = 0.35 },
+		   dug = { name = "bacon_dug", gain = 0.8 },
+		   dig = { name = "bacon_dig", gain = 0.6 },
+		   place = { name = "bacon_place", gain = 0.15 },
+	},
 })
 
 --Craft items
