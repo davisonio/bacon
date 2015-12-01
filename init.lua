@@ -1,8 +1,7 @@
------------------------------
--- Bacon Mod by CraigyDavi --
------------------------------
+--
+-- Ores
+--
 
---Generate bacon ore
 minetest.register_ore({
 	ore_type       = "scatter",
 	ore            = "bacon:ore",
@@ -14,7 +13,6 @@ minetest.register_ore({
 	height_max     = -300,
 })
 
---Generate bacon block
 minetest.register_ore({
 	ore_type       = "scatter",
 	ore            = "bacon:rawblock",
@@ -26,7 +24,10 @@ minetest.register_ore({
 	height_max     = -1000,
 })
 
---Blocks
+--
+-- Nodes
+--
+
 minetest.register_node("bacon:ore", {
 	description = "Bacon Ore",
 	tiles = {"default_stone.png^bacon_ore.png"},
@@ -58,7 +59,10 @@ minetest.register_node("bacon:cookedblock", {
 	},
 })
 
---Craft items
+--
+-- Craftitems
+--
+
 minetest.register_craftitem("bacon:raw", {
 	description = "Raw Bacon",
 	inventory_image = "bacon_raw.png",
@@ -71,7 +75,10 @@ minetest.register_craftitem("bacon:cooked", {
 	on_use = minetest.item_eat(20),
 })
 
---Crafts
+--
+-- Crafts
+--
+
 minetest.register_craft({
 	output = 'bacon:rawblock',
 	recipe = {
@@ -138,7 +145,10 @@ minetest.register_craft({
 	}
 })
 
---Tools
+--
+-- Tools
+--
+
 minetest.register_tool("bacon:pick", {
 	description = "Bacon Pickaxe",
 	inventory_image = "bacon_pick.png",
@@ -183,5 +193,3 @@ minetest.register_tool("bacon:sword", {
 		damage_groups = {fleshy=7},
 	},
 })
-
-print ("Bacon [bacon] has loaded!")
