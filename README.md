@@ -1,5 +1,7 @@
 # [Bacon](https://davison.io/minetest/bacon) :video_game: [![](https://img.shields.io/travis/davisonio/bacon.svg?style=flat-square)](https://travis-ci.org/davisonio/bacon)
 
+[![Join the chat at https://gitter.im/davisonio/bacon](https://badges.gitter.im/davisonio/bacon.svg)](https://gitter.im/davisonio/bacon?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 > Bacon mod for [Minetest](http://www.minetest.net)
 
 <p align="center">
