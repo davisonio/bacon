@@ -1,4 +1,4 @@
-# [Bacon](https://davison.io/minetest/bacon) :video_game: [![](https://img.shields.io/travis/davisonio/bacon.svg?style=flat-square)](https://travis-ci.org/davisonio/bacon)
+# [Bacon](https://davison.io/minetest/bacon) :video_game: [![](https://img.shields.io/travis/davisonio/bacon.svg?style=flat-square)](https://travis-ci.org/davisonio/bacon) [![](https://img.shields.io/gitter/room/davisonio/bacon.svg)](https://gitter.im/davisonio/bacon)
 
 > Bacon mod for [Minetest](http://www.minetest.net)
 
@@ -18,7 +18,10 @@ Everyone's favourite food is now here in Minetest!
 
 ## Install
 
-*Dependencies:* default
+###### Requirements
+
+- [Minetest](http://www.minetest.net) >= 0.4.10
+- default
 
 [Download](https://github.com/davisonio/bacon/archive/master.zip) & unzip the mod, rename it to "bacon" and move it into your `minetest/mods` folder.
 
